@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>rational</groupId>
-  <artifactId>UserAccountManagement</artifactId>
+  <groupId>objective</groupId>
+  <artifactId>ProjectMaple</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>UserAccountManagement Maven Webapp</name>
+  <name>Project Maple A Passport Inc. Coding Challenge</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -103,7 +103,7 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>UserAccountManagement</finalName>
+    <finalName>ProjectMaple</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.tomcat.maven</groupId>
@@ -112,7 +112,7 @@
         <configuration>
           <url>http://localhost:8080/manager/text</url>
           <server>tomcat</server>
-          <path>/UserAccountManagement</path>
+          <path>/ProjectMaple</path>
           <username>admin</username>
           <password>admin</password>
         </configuration>

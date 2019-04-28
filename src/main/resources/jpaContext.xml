@@ -11,7 +11,7 @@
   <context:annotation-config />
   <bean class="org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor" />
 
-  <jpa:repositories base-package="com.rational.repository" />
+  <jpa:repositories base-package="com.objective.repository" />
 
   <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
     <property name="persistenceUnitName" value="punit"/>
@@ -38,14 +38,8 @@
 
   <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
     <property name="driverClassName" value="com.mysql.jdbc.Driver" />
-    <property name="url" value="jdbc:mysql://localhost:3306/uam?autoReconnect=true" />
-    <property name="username" value="root" />
-    <property name="password" value="root" />
+    <property name="url" value="jdbc:mysql://objective-tree.cvuhu8sx5fva.us-east-2.rds.amazonaws.com:3306/maple" />
+    <property name="username" value="objective84" />
+    <property name="password" value="objective84" />
   </bean>
-  <!--<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">-->
-  <!--<property name="driverClassName" value="com.mysql.jdbc.Driver" />-->
-  <!--<property name="url" value="jdbc:mysql://localhost:3306/CharacterSheet?autoReconnect=true" />-->
-  <!--<property name="username" value="root" />-->
-  <!--<property name="password" value="ILdCGwRlt4aN" />-->
-  <!--</bean>-->
 </beans>
