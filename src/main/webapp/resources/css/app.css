@@ -1,3 +1,11 @@
+body{
+    background-color: slategrey;
+}
+.container{
+    background-color: cornsilk;
+    padding: 10px;
+}
+
 #tree-container{
     margin-top: 135px;
 }
@@ -66,4 +74,39 @@
     outline: 0;
 }
 
+.header{
+    background: blue;
+    width: 580px;
+    color: white;
+    font-size: 16pt;
+    line-height: 40px;
+    padding-left: 10px;
+}
+
+.modal-dialog {
+    width: 220px;
+}
+
+.modal-dialog span.error{
+    color: red;
+}
+
+#addFactoryPanel{
+    margin-left: 40px;
+}
+
+/*Start add factory*/
+#addFactory{
+    margin: 5px 5px 5px 5px;
+}
+#addFactory .row{
+    width: 30%;
+    border: black 1px solid;
+    padding: 10px 0 10px 0;
+}
+#addFactory input{
+    margin-bottom: 10px;
+}
+
+/*End add factory*/
 
